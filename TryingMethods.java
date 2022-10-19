@@ -36,4 +36,15 @@ public class TryingMethods { // insert comment here
             System.out.println("Please go and sleep");
         }
     }
+
+    // Static
+    public static void samLoop() {
+
+        int a = 1;
+        int sum = 0;
+        while (a < 1000) {
+            sum = sum + a;
+            a++;
+        }
+    }
 }
