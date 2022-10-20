@@ -56,15 +56,15 @@ public class TryingMethods { // a class used to try methods
         return sum2;
     }
 
-    public static int SumEven() {
-        int a, sumEven = 0;
+    public static int addEven() {
+        int a, addEven = 0;
         for (a = 13; a <= 103; a++) {
             if (a % 2 == 0) {
 
-                sumEven += a;
+                addEven += a;
 
             }
         }
-        return sumEven;
+        return addEven;
     }
 }
