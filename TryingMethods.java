@@ -1,6 +1,6 @@
 public class TryingMethods { // insert comment here
     public static void main(String[] args) {
-        System.out.println("Trying Methods" + args[0]);
+        System.out.println("Trying Methods");
 
     }
 
@@ -34,6 +34,17 @@ public class TryingMethods { // insert comment here
             System.out.println("You're doing great");
         } else {
             System.out.println("Please go and sleep");
+        }
+    }
+
+    // Static
+    public static void samLoop() {
+
+        int a = 1;
+        int sum = 0;
+        while (a < 1000) {
+            sum = sum + a;
+            a++;
         }
     }
 }
