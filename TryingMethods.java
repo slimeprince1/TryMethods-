@@ -47,12 +47,15 @@ public class TryingMethods { // insert comment here
             sum2 = sum2 + a;
             a++;
         }
+    }
 
     public static void sumOfEven() {
-        int i,  sum=0;  
-         for(i=13; i<=103; i++) {  
-                if(i%2 == 0){
+        int a, sumEven = 0;
+        for (a = 13; a <= 103; a++) {
+            if (a % 2 == 0) {
 
-                    sum += i;   
+                sumEven += a;
             }
         }
+    }
+}
