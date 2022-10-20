@@ -1,7 +1,13 @@
-public class TryingMethods { // insert comment here
+public class TryingMethods { // a class used to try methods
     public static void main(String[] args) {
+
+
         System.out.println("Trying Methods");
 
+
+        new TryingMethods().secondDynamic(0);
+
+        System.out.println("The sum of natural numbers below 1000 is: " + sumLoop());
     }
 
     // dynamic methods
@@ -22,7 +28,7 @@ public class TryingMethods { // insert comment here
             case 7:
                 return "Sunday";
             default:
-                return "Invalid Day";
+                return "Invalid";
         }
     }
 
@@ -38,13 +44,27 @@ public class TryingMethods { // insert comment here
     }
 
     // Static
-    public static void samLoop() {
+    public static int sumLoop() {
 
         int a = 1;
-        int sum = 0;
+        int sum2 = 0;
+
         while (a < 1000) {
-            sum = sum + a;
+            sum2 = sum2 + a;
             a++;
         }
+        return sum2;
+    }
+
+    public static int SumEven() {
+        int a, sumEven = 0;
+        for (a = 13; a <= 103; a++) {
+            if (a % 2 == 0) {
+
+                sumEven += a;
+
+            }
+        }
+        return sumEven;
     }
 }
