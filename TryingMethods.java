@@ -38,13 +38,21 @@ public class TryingMethods { // insert comment here
     }
 
     // Static
-    public static void samLoop() {
+    public static void sumLoop() {
 
         int a = 1;
-        int sum = 0;
+        int sum2 = 0;
+
         while (a < 1000) {
-            sum = sum + a;
+            sum2 = sum2 + a;
             a++;
         }
-    }
-}
+
+    public static void sumOfEven() {
+        int i,  sum=0;  
+         for(i=13; i<=103; i++) {  
+                if(i%2 == 0){
+
+                    sum += i;   
+            }
+        }
