@@ -1,4 +1,4 @@
-public class TryingMethods { // insert comment here
+public class TryingMethods { // a class used to try methods
     public static void main(String[] args) {
 
         new TryingMethods().secondDynamic(0);
