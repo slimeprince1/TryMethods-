@@ -52,14 +52,15 @@ public class TryingMethods { // insert comment here
         return sum2;
     }
 
-    public static int sumOfEven() {
+    public static int SumEven() {
         int a, sumEven = 0;
         for (a = 13; a <= 103; a++) {
             if (a % 2 == 0) {
 
                 sumEven += a;
-                return sumEven;
+
             }
         }
+        return sumEven;
     }
 }
