@@ -1,6 +1,6 @@
 public class TryingMethods { // insert comment here
     public static void main(String[] args) {
-        System.out.println("Trying Methods" + args[0]);
+        System.out.println("Trying Methods");
 
     }
 
