@@ -1,6 +1,10 @@
 public class TryingMethods { // a class used to try methods
     public static void main(String[] args) {
 
+
+        System.out.println("Trying Methods");
+
+
         new TryingMethods().secondDynamic(0);
 
         System.out.println("The sum of natural numbers below 1000 is: " + sumLoop());
